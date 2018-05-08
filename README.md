@@ -1,5 +1,5 @@
 # VoltageCollapse3Bus
-Simulation and analysis of voltage collapse in a 3 bus power system. The simulation is run via Power System Analysis Toolbox (version 2.1.10 at http://faraday1.ucd.ie/psat.html). In order to stop the time domain simulation appropraitely, the PSAT file fm_int.m has been hacked slightly. The hacked version is given in the repository, and it must replace the original version in PSAT's main folder.
+Simulation and analysis of voltage collapse in a 3 bus power system (the generator is tied to a transformer, so this is actually a 4 bus system). The simulation is run via Power System Analysis Toolbox (version 2.1.10 at http://faraday1.ucd.ie/psat.html). In order to stop the time domain simulation appropraitely, the PSAT file fm_int.m has been hacked slightly. The hacked version is given in the repository, and it must replace the original version in PSAT's main folder.
 
 There are 6 files:
 
