@@ -1,5 +1,7 @@
 # VoltageCollapse3Bus
-Simulation and analysis of voltage collapse in a 3 bus power system. There are 6 files:
+Simulation and analysis of voltage collapse in a 3 bus power system. The simulation is run via Power System Analysis Toolbox (version 2.1.10 at http://faraday1.ucd.ie/psat.html). In order to stop the time domain simulation appropraitely, the PSAT data file fm_int.m has been hacked slightly. The hacked version is given in the repository, and it must replace the original version in PSAT's main folder.
+
+There are 6 files:
 
 1. Main_TEST.m - This is the main test file which runs the voltage collapse simualtion. It loops over all three controllers.
 2. Calc_CritVars.m - This file calculates the critical variance at the load bus using a statistical solver.
